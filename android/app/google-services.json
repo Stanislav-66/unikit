@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "572066362861",
+    "project_id": "unikit-b3681",
+    "storage_bucket": "unikit-b3681.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572066362861:android:6c3b9d4f35db7c85abe3e4",
+        "android_client_info": {
+          "package_name": "com.example.unikit"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6H37H-hymt48Hz5EcG-kgO2Fe1DBM5gs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

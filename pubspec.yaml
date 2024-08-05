@@ -1,0 +1,102 @@
+name: unikit
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  bloc: ^8.1.4
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  equatable: ^2.0.5
+  cupertino_icons: ^1.0.6
+  firebase_core: ^2.30.1
+  firebase_auth: ^4.19.4
+  user_reposytory:
+    path: packages/repositories
+  auto_route: ^8.1.3
+  dio: ^5.4.3+1
+  flutter_local_notifications: ^17.1.2
+  webview_flutter: ^4.8.0
+  teledart: ^0.6.1
+  flutter_cached_pdfview: ^0.4.2
+  fluttertoast: ^8.2.5
+  android_path_provider: ^0.3.0
+  firebase_messaging: ^14.9.4
+
+  shared_preferences: ^2.2.3
+  path_provider: ^2.0.1
+  url_launcher: ^6.2.6
+  carousel_slider: ^4.2.1
+  provider: ^6.1.2
+  animated_theme_switcher: ^2.0.10
+
+  shelf: ^1.4.1
+  shelf_static: ^1.1.2
+  shelf_cors_headers: ^0.1.5
+  restart_app: ^1.2.1
+  shelf_web_socket: ^1.0.4
+  flutter_login_yandex_updated: ^0.0.6
+  rive: ^0.13.5
+  video_player: ^2.8.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  auto_route_generator: ^8.0.0
+  build_runner: ^2.1.5
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo/logo_unikit2.png"
+  min_sdk_android: 24
+  remove_alpha_ios: true
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo/logo_unikit.png
+    - assets/images/logo/logo_unikit2.png
+    - assets/images/url/tel.png
+    - assets/images/url/vk.png
+    - assets/images/banners/flutter.png
+    - assets/images/banners/open_door.png
+    - assets/images/banners/pr.png
+    - assets/images/banners/tel.png
+    - assets/images/special/programist.jpg
+    - assets/images/special/vanya.jpg
+    - assets/images/logo/logo_unikit_dark.png
+    - assets/images/url/yandex.png
+    - assets/animations/search_app.riv
+    - assets/animations/avatar_demo.riv
+    - assets/images/url/user.png
+    - assets/animations/animated_icons.riv
+    - assets/animations/loading.riv
+    - assets/path/res.json
+    - assets/images/icons/pdf_icon.png
+    - assets/images/url/no_image.png
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans-Regular.ttf
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+
+flutter_intl:
+  enabled: true

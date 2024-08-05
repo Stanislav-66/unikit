@@ -1,0 +1,9 @@
+export 'teacher_screen/teacher.dart';
+export 'settings_screen/settings.dart';
+export 'contact_screen/contact.dart';
+export 'home_screen/home.dart';
+export 'quest_screen/quest.dart';
+export 'auth_screen/auth_export.dart';
+export 'news_screen/news.dart';
+export 'speciality_screen/speciality.dart';
+export 'package:unikit/app/loading.dart';
